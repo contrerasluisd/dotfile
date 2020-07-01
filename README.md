@@ -4,7 +4,7 @@ Para tener centralizados mi configuración de entorno de trabajo
 
 ## Pre install Install
 
-### - [Homebrew](https://brew.sh)
+### 👉 [Homebrew](https://brew.sh)
 
 ---
 
@@ -13,6 +13,7 @@ Para tener centralizados mi configuración de entorno de trabajo
 ```
 
 ```bash
+# 🍺
 brew install pstree
 brew install nvm
 brew install tldr
@@ -27,7 +28,7 @@ brew cask install osxfuse
 brew install datawire/blackbird/telepresence\
 ```
 
-### - setup `nvm`
+### 👉 setup `nvm`
 
 ---
 
@@ -42,16 +43,16 @@ nvm use default
 
 ```
 
-### - [zim](https://github.com/zimfw/zimfw)
+### 👉 [zim](https://github.com/zimfw/zimfw)
 
 ---
-
+🖥
 ```bash
 #to fix problem with the start zsh
 compaudit | xargs chmod g-w
 ```
 
-### - ssh
+### 👉 ssh
 
 ---
 
@@ -67,7 +68,7 @@ eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
 ```
 
-### - Install dot-files
+## 🎉 Install dot-files
 
 ```bash
 cd ~./dotfile
