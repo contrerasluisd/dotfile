@@ -1,27 +1,29 @@
 - defaults:
-    link:
-      create: true
-      relink: true
+      link:
+          create: true
+          relink: true
 
 - shell:
-    - [git submodule update --init --recursive, Installing submodules]
+      - [git submodule update --init --recursive, Installing submodules]
 
 - clean: ["~", "~/.config"]
 
 - link:
-    ~/.gitconfig:
-    ~/.gitignore_global:
-    ~/.zimrc:
-    ~/.zlogin:
-    ~/.zshenv:
-    ~/.zshrc:
-    ~/.zim:
-      path: zimfw/
-    ~/.vim:
+      ~/.terminal:
+      ~/.gitconfig:
+      ~/.gitignore_global:
+      ~/.zimrc:
+      ~/.zlogin:
+      ~/.zshenv:
+      ~/.zshrc:
+      ~/.zim:
+          path: zimfw/
+      ~/.vimrc:
+      ~/.vim:
 
 - shell:
-    - description: Installing zim modules if needed
-      command: "[ -s ${ZIM_HOME}/zimfw.zsh ] && [ ! -d ${ZIM_HOME}/modules ] && source ${ZIM_HOME}/zimfw.zsh install || exit 0"
-      stdin: true
-      stdout: true
-      stderr: true
+      - description: Installing zim modules if needed
+        command: "[ -s ${ZIM_HOME}/zimfw.zsh ] && [ ! -d ${ZIM_HOME}/modules ] && source ${ZIM_HOME}/zimfw.zsh install || exit 0"
+        stdin: true
+        stdout: true
+        stderr: true
