@@ -17,6 +17,7 @@
     ~/.zshrc:
     ~/.zim:
       path: zimfw/
+    ~/.vim:
 
 - shell:
     - description: Installing zim modules if needed
