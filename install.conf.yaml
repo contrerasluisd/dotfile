@@ -21,6 +21,7 @@
     ~/.vimrc:
     ~/.vim:
     ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
+    ~/.config/alacritty/alacritty.yml: config/alacritty/alacritty.yml
 
 - shell:
     - description: Installing zim modules if needed
