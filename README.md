@@ -2,45 +2,57 @@
 
 ---
 
-Para tener centralizados mi configuración de entorno de trabajo
+To make a custom environment to new mac, for work and home.
 
 ## **Pre install Install**
 
-### **👉 [Homebrew](https://brew.sh/)**
-
 ---
 
-- Instalar homebrew:
+- Install Xcode:
 
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-```
+    ```bash
+    xcode-select --install
+    ```
 
-- Instalar posteriormente las dependencias
-
-```bash
-# 🍺
-brew install pstree
-brew install nvm
-brew install tldr
-brew install exa
-brew install tree
-brew install gpg
-brew install python
-pip install --user powerline-status
-pip3 install --user powerline-status
-brew install jq
-#tool to work
-brew cask install osxfuse
-brew install datawire/blackbird/telepresence\
-```
-
-### **👉 setup `nvm`**
+## **🎉 Install dot-files**
 
 ---
 
 ```bash
-# 𝗡ode
+cd ~
+git clone git@github.com:contrerasluisd/dotfile.git .dotfile
+cd ~./dotfile
+./install
+# 🎉🎉🎉 done 😏
+```
+
+## 👨‍💻Setup all configurations:
+
+---
+
+### 🍺 **[Homebrew](https://brew.sh/)**
+
+- install `homebrew`:
+
+    ```bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    ```
+
+- Install all brew apps, fonts and commands:
+
+    ```bash
+    # List all apps can install
+    brew search --casks
+    # 🍺 to install all in the Brewfile, in the local directory
+    brew bundle
+    ```
+
+### > **setup `nvm`**
+
+---
+
+```bash
+# 𝗡ode version manager
 nvm -h
 nvm install node
 nvm install lts
@@ -49,17 +61,16 @@ nvm alias default 12.18.1
 nvm use default
 ```
 
-### **👉 [zim](https://github.com/zimfw/zimfw)**
+### 👽 **[zim](https://github.com/zimfw/zimfw)**
 
 ---
 
 ```bash
-# 🖥
-#to fix problem with the start zsh
+# 🖥 to fix problem with the start zsh
 compaudit | xargs chmod g-w
 ```
 
-### **👉 ssh**
+### #️⃣ **ssh**
 
 ---
 
@@ -75,15 +86,7 @@ eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
 ```
 
-## **🎉 Install dot-files**
-
-```bash
-cd ~./dotfile
-./install
-# 🎉🎉🎉 done 😏
-```
-
-## TODO List:
+## 📝TODO List:
 
 ---
 
@@ -99,3 +102,10 @@ cd ~./dotfile
 - [x]  add `vim` extensions with `git module`
 - [x]  add customs aliases
 - [ ]  add font repo as `git submodule`
+- [x]  add installations with `brew` all app dependencies
+    - [x]  VSCode
+    - [x]  iTerm2
+    - [x]  Notion
+    - [x]  Others more
+- [ ]  add in `git` config handler git account
+- [x]  add config to `alacritty`
