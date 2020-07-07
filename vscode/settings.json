@@ -23,7 +23,7 @@
   "editor.minimap.enabled": false,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
-  "editor.fontFamily": "Dank Mono, Hack, Menlo, Monaco, monospace",
+  "editor.fontFamily": "Hack Nerd Font Mono",
   // "editor.fontSize": 16,
   // "editor.lineHeight": 32,
   "editor.rulers": [120],
