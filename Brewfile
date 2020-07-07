@@ -58,7 +58,6 @@ cask "docker"
 cask "alacritty"
 cask "dbeaver-community"
 cask "iterm2"
-cask "spark"
 
 # Browsers
 cask "firefox"
