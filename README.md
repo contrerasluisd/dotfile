@@ -91,7 +91,7 @@ ssh-add ~/.ssh/id_rsa
 ---
 
 - [x]  add dotbot with `git submodule`
-- [x]  setup dotbit `install.sh`
+- [x]  setup dotbot `install.sh`
 - [x]  add zimfw whit `git submodule`
 - [x]  add configuration to `zsh`
 - [x]  add configuration to `git`
