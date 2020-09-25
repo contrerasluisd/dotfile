@@ -11,8 +11,15 @@ export NVM_DIR="$HOME/.nvm"
 export AWS_PROFILE=DONT_MODIFY_iac/dev
 #Kube service 
 export KUBECONFIG=/Users/luiscontreras/.kube/nx-new-dev-eks
-
+#Telepresence
+export export TELEPRESENCE_USE_DEPLOYMENT=1
 #CRM local env
-export NODE_ENV=newdev
-export CRM_CLIENT_ACCESS_TOKEN=jDxDSoUXXw7z3MDF8Oq081rlTZGm2KAk2RYcdIwO
-export CRM_CLIENT_ENDPOINT=https://crm.new-dev.naranja.dev/crm/api
+export NODE_ENV=develop
+
+eval $(ssh-agent -s)
+ssh-add -K ~/.ssh/id_rsa
+
+#Export terraform bin path
+export PATH=$PATH:$HOME/.terraform
+
+

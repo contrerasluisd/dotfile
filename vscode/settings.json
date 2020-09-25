@@ -61,5 +61,21 @@
     "focusBorder": "#10fb7a"
   },
   "workbench.statusBar.visible": true,
-  "git.detectSubmodules": false
+  "git.detectSubmodules": false,
+  "editor.tabSize": 2,
+  "eslint.format.enable": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.preferences.quoteStyle": "single",
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "workbench.sideBar.location": "right",
+  "cSpell.language": "en,en-US"
 }

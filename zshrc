@@ -125,3 +125,4 @@ bindkey -M vicmd 'j' history-substring-search-down
 #Personal
 source ~/.terminal/init.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
