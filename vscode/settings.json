@@ -77,5 +77,6 @@
   "prettier.printWidth": 120,
   "prettier.singleQuote": true,
   "workbench.sideBar.location": "right",
-  "cSpell.language": "en,en-US"
+  "cSpell.language": "en,en-US",
+  "todo-tree.tree.showScanModeButton": false
 }

@@ -8,7 +8,7 @@ export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 #AWS service
-export AWS_PROFILE=DONT_MODIFY_iac/dev
+export AWS_PROFILE=new-nx-dev/iac-dev-policy
 #Kube service 
 export KUBECONFIG=/Users/luiscontreras/.kube/nx-new-dev-eks
 #Telepresence
