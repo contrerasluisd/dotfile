@@ -64,3 +64,7 @@
 [submodule "vim/pack/vendor/start/vim-surround"]
 	path = vim/pack/vendor/start/vim-surround
 	url = https://github.com/tpope/vim-surround
+[submodule "vim/pack/vendor/start/kite"]
+	path = vim/pack/vendor/start/kite
+	url = https://github.com/kiteco/vim-plugin
+	ignore = untracked

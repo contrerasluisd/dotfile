@@ -78,5 +78,6 @@
   "prettier.singleQuote": true,
   "workbench.sideBar.location": "right",
   "cSpell.language": "en,en-US",
-  "todo-tree.tree.showScanModeButton": false
+  "todo-tree.tree.showScanModeButton": false,
+  "kite.showWelcomeNotificationOnStartup": false
 }

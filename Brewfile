@@ -47,6 +47,7 @@ brew "youtube-dl"
 brew "z"
 brew "zsh"
 brew "nvm"
+brew "mysql-client"
 
 # Applications
 cask "notion"
