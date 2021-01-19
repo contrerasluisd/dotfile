@@ -49,6 +49,7 @@ brew "zsh"
 brew "nvm"
 brew "mysql-client"
 
+
 # Applications
 cask "notion"
 #cask "rocket"
@@ -59,6 +60,7 @@ cask "docker"
 cask "alacritty"
 cask "dbeaver-community"
 cask "iterm2"
+cask "keepassxc"
 
 # Browsers
 cask "firefox"
