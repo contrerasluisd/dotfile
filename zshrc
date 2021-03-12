@@ -122,7 +122,19 @@ bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 # }}} End configuration added by Zim install
 
+##############
 #Personal
+##############
 source ~/.terminal/init.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+#
+# Java OpenJDK
+# 
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
+export CPPFLAGS="-I/usr/local/opt/openjdk/include"
+#
+# goland GOBIN
+#
+export PATH="$HOME/go/bin:$PATH"
+#eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
+export GPG_TTY=$(tty)

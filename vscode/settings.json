@@ -1,7 +1,6 @@
 {
   // 👀 VS Code UI
   "editor.cursorBlinking": "smooth",
-  "window.zoomLevel": 0,
   // "workbench.activityBar.visible": false,
   // "workbench.colorTheme": "Gruvbox Dark Medium",
   "workbench.editor.enablePreview": false,
@@ -79,5 +78,9 @@
   "workbench.sideBar.location": "right",
   "cSpell.language": "en,en-US",
   "todo-tree.tree.showScanModeButton": false,
-  "kite.showWelcomeNotificationOnStartup": false
+  "kite.showWelcomeNotificationOnStartup": false,
+  "amlLanguageServer.run.logPath": "/Users/lcontreras/mulesoft/databridge-model/AMF.log",
+  "[raml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
