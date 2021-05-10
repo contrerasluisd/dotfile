@@ -71,12 +71,12 @@ export GIT_PS1_SHOWDIRTYSTATE="on"
 export LESSCHARSET=utf-8
 export ITERM=true
 
-if [ "$OSTYPE" != "linux-gnu" ]; then 
-    export PS1_BACKUP="\[\e[32m\]\w\$(__git_ps1 \" \[\e[33m\]%s\") \[\e[0m\]:"
-else 
-    export PS1_BACKUP='\[\e[32m\]\w\[\e[0m\] :'
-fi
-export PS1=$PS1_BACKUP
+#if [ "$OSTYPE" != "linux-gnu" ]; then
+#    export PS1_BACKUP="\[\e[32m\]\w\$(__git_ps1 \" \[\e[33m\]%s\") \[\e[0m\]:"
+#else
+#    export PS1_BACKUP='\[\e[32m\]\w\[\e[0m\] :'
+#fi
+#export PS1=$PS1_BACKUP
 
 export EDITOR=vi
 export LC_CTYPE=en_US.UTF-8
