@@ -76,10 +76,10 @@ compaudit | xargs chmod g-w
 
 ```bash
 #👨‍💻this to make a rsa
-ssh-keygen -o -t rsa -b 4096 -C "luis.contreras@naranjax.com"
+ssh-keygen -o -t rsa -b 4096 -C "mi-mail@example.com"
 pbcopy < ~/.ssh/id_rsa.pub
 # or the other one ed
-ssh-keygen -t ed25519 -C "luis.contreras@naranjax.com"
+ssh-keygen -t ed25519 -C "mi-mail@example.com"
 pbcopy < ~/.ssh/id_ed25519.pub
 # to avoid enter the phrase all time
 eval $(ssh-agent -s)
