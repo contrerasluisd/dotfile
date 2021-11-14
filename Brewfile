@@ -65,13 +65,11 @@ cask "notion"
 #cask "rocket"
 cask "postman"
 cask "insomnia"
-cask "visual-studio-code"
 cask "docker"
 cask "alacritty"
 cask "dbeaver-community"
 cask "iterm2"
 cask "keepassxc"
-cask "appgate-sdp-client"
 cask "tunnelblick"
 cask "virtualbox"
 
@@ -79,7 +77,6 @@ cask "virtualbox"
 
 # Browsers
 cask "firefox"
-cask "google-chrome"
 
 # Fonts
 cask "font-hack-nerd-font"
