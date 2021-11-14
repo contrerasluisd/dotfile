@@ -70,7 +70,7 @@ nvm use default
 compaudit | xargs chmod g-w
 ```
 
-### #️⃣ **ssh**
+### #️⃣  **ssh**
 
 ---
 
@@ -86,7 +86,16 @@ eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
 ```
 
-## 📝TODO List:
+### 📋 **vim**
+
+Documentation [vim-plug](https://github.com/junegunn/vim-plug#pluginstall-and-plugupdate)
+
+```vim
+:PlugInstall
+```
+
+
+## 📝 TODO List:
 
 ---
 
