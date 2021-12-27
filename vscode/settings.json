@@ -82,5 +82,9 @@
   "amlLanguageServer.run.logPath": "/Users/lcontreras/mulesoft/databridge-model/AMF.log",
   "[raml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+    "*.log": "default",
+    "*.tfplan": "default"
   }
 }

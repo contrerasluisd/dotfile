@@ -1,3 +1,4 @@
+source /Users/lcontreras/.bootstrap_rc
 # Start configuration added by Zim install {{{
 #
 # User configuration sourced by interactive shells
@@ -142,3 +143,13 @@ export GPG_TTY=$(tty)
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+export NODE_EXTRA_CA_CERTS="$HOME/npm-sfdc-certs.pem"
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/terraform terraform
+export PATH="/usr/local/opt/curl/bin:$PATH"
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/lcontreras/.sdkman"
+[[ -s "/Users/lcontreras/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/lcontreras/.sdkman/bin/sdkman-init.sh"

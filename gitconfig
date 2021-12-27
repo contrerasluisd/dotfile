@@ -107,7 +107,7 @@
 
 [user]
 	useConfigOnly = true
-	signingkey = 29981AAB9AF96F369F09F8F1699F9719D02504F4
+	signingkey = 06AEFE2DB8817E14D0D2E8C0EE9BC501932FEAAA
 
 [http]
 	cookieFile = ~/.gitcookies
@@ -119,6 +119,6 @@
 [include]
 	path = ~/.gitconfig_local
 [commit]
-	gpgsign = false
+	gpgsign = true
 [gpg]
-	program = /usr/local/bin/gpg-agent
+	program = gpg2
