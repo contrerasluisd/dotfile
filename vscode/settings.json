@@ -86,5 +86,8 @@
   "workbench.editorAssociations": {
     "*.log": "default",
     "*.tfplan": "default"
-  }
+  },
+  "editor.largeFileOptimizations": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active"
 }
