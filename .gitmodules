@@ -68,3 +68,24 @@
 	path = vim/pack/vendor/start/kite
 	url = https://github.com/kiteco/vim-plugin
 	ignore = untracked
+[submodule "vim/plugged/coc.nvim"]
+	path = vim/plugged/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+[submodule "vim/plugged/ctrlp.vim"]
+	path = vim/plugged/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule "vim/plugged/gruvbox"]
+	path = vim/plugged/gruvbox
+	url = git@github.com:morhetz/gruvbox.git
+[submodule "vim/plugged/lightline.vim"]
+	path = vim/plugged/lightline.vim
+	url = git@github.com:itchyny/lightline.vim.git
+[submodule "vim/plugged/neomake"]
+	path = vim/plugged/neomake
+	url = git@github.com:neomake/neomake.git
+[submodule "vim/plugged/nerdcommenter"]
+	path = vim/plugged/nerdcommenter
+	url = git@github.com:preservim/nerdcommenter.git
+[submodule "vim/plugged/nerdtree"]
+	path = vim/plugged/nerdtree
+	url = git@github.com:preservim/nerdtree.git
