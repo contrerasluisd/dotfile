@@ -1,16 +1,11 @@
 {
   // 👀 VS Code UI
   "editor.cursorBlinking": "smooth",
-  // "workbench.activityBar.visible": false,
-  // "workbench.colorTheme": "Gruvbox Dark Medium",
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.showTabs": "multiple",
   "workbench.iconTheme": "material-icon-theme",
   // ⚙️ Common settings
   "window.restoreWindows": "all",
   "window.openFoldersInNewWindow": "on",
   "window.openFilesInNewWindow": "off",
-  "workbench.startupEditor": "newUntitledFile",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "search.useGlobalIgnoreFiles": true,
@@ -25,7 +20,9 @@
   "editor.fontFamily": "Hack Nerd Font Mono",
   // "editor.fontSize": 16,
   // "editor.lineHeight": 32,
-  "editor.rulers": [120],
+  "editor.rulers": [
+    120
+  ],
   "editor.wordWrap": "on",
   "editor.wrappingIndent": "indent",
   "workbench.editor.highlightModifiedTabs": true,
@@ -74,12 +71,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "javascript.preferences.quoteStyle": "single",
   "prettier.printWidth": 120,
   "prettier.singleQuote": true,
-  "workbench.sideBar.location": "right",
   "cSpell.language": "en,en-US",
   "todo-tree.tree.showScanModeButton": false,
   "kite.showWelcomeNotificationOnStartup": false,
@@ -89,12 +85,16 @@
   },
   "workbench.editorAssociations": {
     "*.log": "default",
-    "*.tfplan": "default"
+    "*.tfplan": "default",
+    "*.zip": "default"
   },
-  "editor.largeFileOptimizations": false,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
-  "[python]": {
-    "editor.formatOnType": true
-  }
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.tabs.location": "left",
+  "files.autoSave": "onFocusChange",
+  "cSpell.userWords": [
+    "middyfy",
+    "middyfyparser",
+    "uuidv"
+  ],
+  "editor.unicodeHighlight.invisibleCharacters": false
 }

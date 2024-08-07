@@ -71,8 +71,8 @@ cask "alacritty"
 cask "dbeaver-community"
 cask "iterm2"
 cask "keepassxc"
-cask "tunnelblick"
-cask "virtualbox"
+#cask "tunnelblick"
+#cask "virtualbox"
 
 
 
