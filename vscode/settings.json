@@ -4,7 +4,7 @@
   // "workbench.activityBar.visible": false,
   // "workbench.colorTheme": "Gruvbox Dark Medium",
   "workbench.editor.enablePreview": false,
-  "workbench.editor.showTabs": true,
+  "workbench.editor.showTabs": "multiple",
   "workbench.iconTheme": "material-icon-theme",
   // ⚙️ Common settings
   "window.restoreWindows": "all",
@@ -44,7 +44,11 @@
     "editor.renderWhitespace": "all",
     "editor.acceptSuggestionOnEnter": "off",
     "editor.parameterHints.enabled": false,
-    "editor.quickSuggestions": false,
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
     "editor.snippetSuggestions": "none",
     "editor.formatOnSave": false // Converts "*" lists into "-" and other nasty things :/
   },
@@ -89,5 +93,8 @@
   },
   "editor.largeFileOptimizations": false,
   "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active"
+  "editor.guides.bracketPairs": "active",
+  "[python]": {
+    "editor.formatOnType": true
+  }
 }

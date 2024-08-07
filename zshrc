@@ -130,7 +130,7 @@ source ~/.terminal/init.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 #
 # Java OpenJDK
-# 
+#
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
 export CPPFLAGS="-I/usr/local/opt/openjdk/include"
 #
@@ -148,7 +148,9 @@ autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/terraform terraform
 export PATH="/usr/local/opt/curl/bin:$PATH"
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/lcontreras/.sdkman"
 [[ -s "/Users/lcontreras/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/lcontreras/.sdkman/bin/sdkman-init.sh"
+[[ $commands[kubectl] ]] && source <(kubectl completion zsh)

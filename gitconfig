@@ -1,5 +1,6 @@
 [user]
 	email = contreras.luisd@gmail.com
+	#email = lcontreras@salesforce.com
 	name = Luis Contreras
     
 [alias]
@@ -107,7 +108,7 @@
 
 [user]
 	useConfigOnly = true
-	signingkey = 06AEFE2DB8817E14D0D2E8C0EE9BC501932FEAAA
+	signingkey = 003D4CD49F3DFA9F0C25D4316D09869239546379
 
 [http]
 	cookieFile = ~/.gitcookies
