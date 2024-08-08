@@ -157,3 +157,5 @@ export PATH="/usr/local/sbin:$PATH"
 export SDKMAN_DIR="/Users/lcontreras/.sdkman"
 [[ -s "/Users/lcontreras/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/lcontreras/.sdkman/bin/sdkman-init.sh"
 [[ $commands[kubectl] ]] && source <(kubectl completion zsh)
+
+export PATH="$HOME/bin:$PATH"
