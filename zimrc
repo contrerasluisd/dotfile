@@ -2,6 +2,8 @@
 # -------
 # Modules
 # -------
+#
+zmodule prompt-pwd
 
 # Sets sane Zsh built-in environment options.
 zmodule environment

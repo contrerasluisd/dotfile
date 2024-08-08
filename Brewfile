@@ -1,9 +1,9 @@
 # taps
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
-tap "homebrew/cask-fonts"
-tap "schniz/tap"
+#tap "homebrew/bundle"
+#tap "homebrew/cask"
+#tap "homebrew/core"
+#tap "homebrew/cask-fonts"
+#tap "schniz/tap"
 
 # packages
 brew "ack"
@@ -13,7 +13,7 @@ brew "curl"
 brew "cowsay"
 brew "diff-so-fancy"
 brew "entr"
-brew "exa"
+#brew "exa"
 brew "fd"
 brew "fortune"
 brew "fzf"
@@ -53,7 +53,7 @@ brew "nvm"
 brew "mysql-client"
 brew "httpie"
 brew "watch"
-brew "openjdk@11"
+# brew "openjdk@11"
 brew "gradle"
 brew "maven"
 brew "sbt"
@@ -77,10 +77,10 @@ cask "keepassxc"
 
 
 # Browsers
-cask "firefox"
+#cask "firefox"
 
 # Fonts
 cask "font-hack-nerd-font"
 
 # macOS App Store
-mas "Xcode", id: 497799835
+#mas "Xcode", id: 497799835

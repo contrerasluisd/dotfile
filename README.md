@@ -83,7 +83,7 @@ ssh-keygen -t ed25519 -C "mi-mail@example.com"
 pbcopy < ~/.ssh/id_ed25519.pub
 # to avoid enter the phrase all time
 eval $(ssh-agent -s)
-ssh-add ~/.ssh/id_rsa
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 ```
 
 ### 📋 **vim**
